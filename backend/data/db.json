@@ -1,0 +1,687 @@
+{
+  "users": [
+    {
+      "id": "student-user-1",
+      "role": "student",
+      "name": "Aarav Patel",
+      "email": "aarav@student.com",
+      "password": "student123",
+      "phone": "9998887771"
+    },
+    {
+      "id": "student-user-2",
+      "role": "student",
+      "name": "Ishita Rao",
+      "email": "ishita@student.com",
+      "password": "student123",
+      "phone": "9998887772"
+    },
+    {
+      "id": "teacher-user-1",
+      "role": "teacher",
+      "name": "Anita Sharma",
+      "email": "anita@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500001",
+      "teacherProfileId": "4a38f3a3-c8fc-486b-b378-8bf8b61a6eab"
+    },
+    {
+      "id": "teacher-user-2",
+      "role": "teacher",
+      "name": "Rajesh Verma",
+      "email": "rajesh@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500002",
+      "teacherProfileId": "10d0b315-0097-4e0d-86de-c8919da5aebc"
+    },
+    {
+      "id": "teacher-user-3",
+      "role": "teacher",
+      "name": "Priya Nair",
+      "email": "priya@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500003",
+      "teacherProfileId": "5971a686-7bda-4ee5-8382-576dde87ef65"
+    },
+    {
+      "id": "teacher-user-4",
+      "role": "teacher",
+      "name": "Suresh Iyer",
+      "email": "suresh@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500004",
+      "teacherProfileId": "8b770b2c-0e16-4df0-934f-e4359136d0ab"
+    },
+    {
+      "id": "teacher-user-5",
+      "role": "teacher",
+      "name": "Meena Joshi",
+      "email": "meena@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500005",
+      "teacherProfileId": "cb4d1d18-faf8-46f8-972e-42dd7d44ee17"
+    },
+    {
+      "id": "teacher-user-6",
+      "role": "teacher",
+      "name": "Karan Malhotra",
+      "email": "karan@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500006",
+      "teacherProfileId": "de3ac580-256d-4a91-ac66-aae20bb27050"
+    },
+    {
+      "id": "teacher-user-7",
+      "role": "teacher",
+      "name": "Sunita Deshmukh",
+      "email": "sunita@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500007",
+      "teacherProfileId": "dcf608c8-824e-4e57-b880-53df634271dc"
+    },
+    {
+      "id": "teacher-user-8",
+      "role": "teacher",
+      "name": "Vikram Rathore",
+      "email": "vikram@teacher.com",
+      "password": "teacher123",
+      "phone": "9876500008",
+      "teacherProfileId": "f4120bed-a533-4a1d-a977-bfce95aba4c9"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "4a38f3a3-c8fc-486b-b378-8bf8b61a6eab",
+      "userId": "teacher-user-1",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Anita%20Sharma",
+      "images": [
+        "https://picsum.photos/seed/classroom01/400/300",
+        "https://picsum.photos/seed/classroom02/400/300",
+        "https://picsum.photos/seed/classroom03/400/300"
+      ],
+      "rating": 4.6,
+      "studentsTaught": 239,
+      "profileViews": 748,
+      "totalAppointments": 28,
+      "reviews": [
+        {
+          "id": "51b5f2fd-3723-4fb0-9182-beccd9d8d339",
+          "studentName": "Ishita Rao",
+          "rating": 4,
+          "comment": "Good teaching style, but batch is a bit crowded.",
+          "date": "2026-04-20"
+        },
+        {
+          "id": "4e23994f-2a14-44c3-9fb2-9c22d8dff2c4",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-01-14"
+        },
+        {
+          "id": "63135b61-c629-4b76-8d25-e43a69741a43",
+          "studentName": "Sneha Kulkarni",
+          "rating": 4,
+          "comment": "Well structured notes and regular tests.",
+          "date": "2026-06-11"
+        },
+        {
+          "id": "c9653e0b-2364-4727-a20f-c386cf5ea142",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-06-28"
+        },
+        {
+          "id": "f6d1cef9-da5e-4c59-9dec-06284dd2369a",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-02-13"
+        }
+      ],
+      "name": "Anita Sharma",
+      "subjects": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classes": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "qualifications": "M.Sc. Mathematics, B.Ed.",
+      "experienceYears": 8,
+      "location": "Vijay Nagar, Indore",
+      "address": "12 Vijay Nagar Main Road, Indore",
+      "contact": "9876500001",
+      "fees": 2500,
+      "batchSize": 12,
+      "availableSeats": 3,
+      "description": "I focus on building strong fundamentals in Maths and Physics through daily practice sheets and weekly doubt sessions.",
+      "batchTimings": [
+        {
+          "label": "Morning Batch",
+          "time": "7:00 AM - 8:30 AM"
+        },
+        {
+          "label": "Evening Batch",
+          "time": "5:00 PM - 6:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "10d0b315-0097-4e0d-86de-c8919da5aebc",
+      "userId": "teacher-user-2",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Rajesh%20Verma",
+      "images": [
+        "https://picsum.photos/seed/classroom11/400/300",
+        "https://picsum.photos/seed/classroom12/400/300",
+        "https://picsum.photos/seed/classroom13/400/300"
+      ],
+      "rating": 4.5,
+      "studentsTaught": 58,
+      "profileViews": 465,
+      "totalAppointments": 45,
+      "reviews": [
+        {
+          "id": "6f6f227b-613d-4932-87d7-059c1186c27d",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-04-27"
+        },
+        {
+          "id": "40192e4a-7155-4934-89cf-a9fd2d0b7b5a",
+          "studentName": "Ishita Rao",
+          "rating": 4,
+          "comment": "Good teaching style, but batch is a bit crowded.",
+          "date": "2026-04-26"
+        }
+      ],
+      "name": "Rajesh Verma",
+      "subjects": [
+        "Chemistry",
+        "Biology"
+      ],
+      "classes": [
+        "11",
+        "12"
+      ],
+      "qualifications": "M.Sc. Chemistry, 5 yrs research experience",
+      "experienceYears": 10,
+      "location": "Rajwada, Indore",
+      "address": "45 Rajwada Chowk, Indore",
+      "contact": "9876500002",
+      "fees": 3000,
+      "batchSize": 15,
+      "availableSeats": 5,
+      "description": "NEET and board-focused coaching with regular mock tests and personal performance tracking for every student.",
+      "batchTimings": [
+        {
+          "label": "Batch A",
+          "time": "6:30 AM - 8:00 AM"
+        },
+        {
+          "label": "Batch B",
+          "time": "4:00 PM - 5:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "5971a686-7bda-4ee5-8382-576dde87ef65",
+      "userId": "teacher-user-3",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Priya%20Nair",
+      "images": [
+        "https://picsum.photos/seed/classroom21/400/300",
+        "https://picsum.photos/seed/classroom22/400/300",
+        "https://picsum.photos/seed/classroom23/400/300"
+      ],
+      "rating": 5,
+      "studentsTaught": 76,
+      "profileViews": 149,
+      "totalAppointments": 52,
+      "reviews": [
+        {
+          "id": "d7b7ec1d-1796-47d8-a648-34f4e36d2a41",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-04-20"
+        },
+        {
+          "id": "d09b6b2c-9fd3-49fb-bad6-09d9d58f63d0",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-01-23"
+        },
+        {
+          "id": "c36df4a5-e845-4af6-888c-b92a07796e59",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-04-23"
+        }
+      ],
+      "name": "Priya Nair",
+      "subjects": [
+        "English",
+        "Social Science"
+      ],
+      "classes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "qualifications": "M.A. English Literature, B.Ed.",
+      "experienceYears": 6,
+      "location": "Palasia, Indore",
+      "address": "9 Palasia Square, Indore",
+      "contact": "9876500003",
+      "fees": 1800,
+      "batchSize": 10,
+      "availableSeats": 2,
+      "description": "I make grammar and writing simple with story-based learning and weekly speaking practice sessions.",
+      "batchTimings": [
+        {
+          "label": "Afternoon Batch",
+          "time": "3:00 PM - 4:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "8b770b2c-0e16-4df0-934f-e4359136d0ab",
+      "userId": "teacher-user-4",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Suresh%20Iyer",
+      "images": [
+        "https://picsum.photos/seed/classroom31/400/300",
+        "https://picsum.photos/seed/classroom32/400/300",
+        "https://picsum.photos/seed/classroom33/400/300"
+      ],
+      "rating": 4.8,
+      "studentsTaught": 274,
+      "profileViews": 574,
+      "totalAppointments": 33,
+      "reviews": [
+        {
+          "id": "b27ccd6f-c6cb-41db-b631-53e7df05688a",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-03-09"
+        },
+        {
+          "id": "9cae34ed-5cdd-4705-91e4-cafc9fd23e43",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-06-26"
+        },
+        {
+          "id": "5192e557-1b60-4419-b85c-6a5d72abef6d",
+          "studentName": "Sneha Kulkarni",
+          "rating": 4,
+          "comment": "Well structured notes and regular tests.",
+          "date": "2026-03-19"
+        },
+        {
+          "id": "073f4c94-75eb-4b32-922d-7528ded7836e",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-04-24"
+        }
+      ],
+      "name": "Suresh Iyer",
+      "subjects": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "classes": [
+        "11",
+        "12"
+      ],
+      "qualifications": "B.Tech CSE, 4 yrs industry experience",
+      "experienceYears": 5,
+      "location": "Bhawarkuan, Indore",
+      "address": "22 Bhawarkuan Square, Indore",
+      "contact": "9876500004",
+      "fees": 2800,
+      "batchSize": 8,
+      "availableSeats": 0,
+      "description": "Hands-on coding classes covering Python, C++ and CS theory with project-based assignments every month.",
+      "batchTimings": [
+        {
+          "label": "Evening Batch",
+          "time": "6:00 PM - 7:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "cb4d1d18-faf8-46f8-972e-42dd7d44ee17",
+      "userId": "teacher-user-5",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Meena%20Joshi",
+      "images": [
+        "https://picsum.photos/seed/classroom41/400/300",
+        "https://picsum.photos/seed/classroom42/400/300",
+        "https://picsum.photos/seed/classroom43/400/300"
+      ],
+      "rating": 5,
+      "studentsTaught": 232,
+      "profileViews": 513,
+      "totalAppointments": 26,
+      "reviews": [
+        {
+          "id": "a59dba8a-cdb2-41b3-a110-18f7362521a2",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-05-25"
+        },
+        {
+          "id": "99b2228c-a54c-4b16-be43-b86c6ccea8c6",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-02-18"
+        },
+        {
+          "id": "3c99903b-2d4f-4e61-8e12-d84b23d2a4d2",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-02-27"
+        }
+      ],
+      "name": "Meena Joshi",
+      "subjects": [
+        "Mathematics",
+        "Science"
+      ],
+      "classes": [
+        "6",
+        "7",
+        "8"
+      ],
+      "qualifications": "B.Sc., B.Ed.",
+      "experienceYears": 12,
+      "location": "Sudama Nagar, Indore",
+      "address": "3 Sudama Nagar, Indore",
+      "contact": "9876500005",
+      "fees": 1500,
+      "batchSize": 14,
+      "availableSeats": 4,
+      "description": "I specialize in helping middle school students clear basic concept gaps in Maths and Science before high school.",
+      "batchTimings": [
+        {
+          "label": "Morning Batch",
+          "time": "8:00 AM - 9:30 AM"
+        }
+      ]
+    },
+    {
+      "id": "de3ac580-256d-4a91-ac66-aae20bb27050",
+      "userId": "teacher-user-6",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Karan%20Malhotra",
+      "images": [
+        "https://picsum.photos/seed/classroom51/400/300",
+        "https://picsum.photos/seed/classroom52/400/300",
+        "https://picsum.photos/seed/classroom53/400/300"
+      ],
+      "rating": 4.3,
+      "studentsTaught": 96,
+      "profileViews": 424,
+      "totalAppointments": 13,
+      "reviews": [
+        {
+          "id": "b01ec649-fd0b-45ed-ae4f-6fa726452ed1",
+          "studentName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Explains concepts very clearly, my scores improved a lot.",
+          "date": "2026-01-13"
+        },
+        {
+          "id": "ee525574-7440-476d-8a73-f83234a448df",
+          "studentName": "Ishita Rao",
+          "rating": 4,
+          "comment": "Good teaching style, but batch is a bit crowded.",
+          "date": "2026-03-18"
+        },
+        {
+          "id": "3c4cc0e5-6831-4aff-ad57-ff1cfc35c533",
+          "studentName": "Ishita Rao",
+          "rating": 4,
+          "comment": "Good teaching style, but batch is a bit crowded.",
+          "date": "2026-04-24"
+        }
+      ],
+      "name": "Karan Malhotra",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
+      "classes": [
+        "11",
+        "12"
+      ],
+      "qualifications": "M.Tech, IIT Alumnus",
+      "experienceYears": 9,
+      "location": "Vijay Nagar, Indore",
+      "address": "18 Vijay Nagar Square, Indore",
+      "contact": "9876500006",
+      "fees": 3500,
+      "batchSize": 10,
+      "availableSeats": 1,
+      "description": "JEE-focused batches with a strong emphasis on problem solving speed and previous year paper analysis.",
+      "batchTimings": [
+        {
+          "label": "Batch A",
+          "time": "6:00 AM - 7:30 AM"
+        },
+        {
+          "label": "Batch B",
+          "time": "7:00 PM - 8:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "dcf608c8-824e-4e57-b880-53df634271dc",
+      "userId": "teacher-user-7",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Sunita%20Deshmukh",
+      "images": [
+        "https://picsum.photos/seed/classroom61/400/300",
+        "https://picsum.photos/seed/classroom62/400/300",
+        "https://picsum.photos/seed/classroom63/400/300"
+      ],
+      "rating": 4.8,
+      "studentsTaught": 66,
+      "profileViews": 141,
+      "totalAppointments": 18,
+      "reviews": [
+        {
+          "id": "c6cfc3a2-bfa6-47dc-8cb0-d678cab05ef3",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-05-10"
+        },
+        {
+          "id": "6bb3c09f-77e9-4822-ac1a-da6780c3b3ff",
+          "studentName": "Rohan Gupta",
+          "rating": 5,
+          "comment": "Best teacher for doubt clearing, very patient.",
+          "date": "2026-02-13"
+        },
+        {
+          "id": "87a3a2c8-d221-4e65-8775-fca9f478568c",
+          "studentName": "Sneha Kulkarni",
+          "rating": 4,
+          "comment": "Well structured notes and regular tests.",
+          "date": "2026-06-08"
+        },
+        {
+          "id": "2659f646-5eba-4b99-a9d8-636fe4b1e364",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-03-01"
+        }
+      ],
+      "name": "Sunita Deshmukh",
+      "subjects": [
+        "Hindi",
+        "Sanskrit"
+      ],
+      "classes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "qualifications": "M.A. Hindi Literature",
+      "experienceYears": 15,
+      "location": "Palasia, Indore",
+      "address": "27 Palasia, Indore",
+      "contact": "9876500007",
+      "fees": 1200,
+      "batchSize": 16,
+      "availableSeats": 6,
+      "description": "Experienced teacher focused on grammar, comprehension and exam writing techniques for board exams.",
+      "batchTimings": [
+        {
+          "label": "Afternoon Batch",
+          "time": "2:00 PM - 3:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "f4120bed-a533-4a1d-a977-bfce95aba4c9",
+      "userId": "teacher-user-8",
+      "photo": "https://api.dicebear.com/7.x/initials/svg?seed=Vikram%20Rathore",
+      "images": [
+        "https://picsum.photos/seed/classroom71/400/300",
+        "https://picsum.photos/seed/classroom72/400/300",
+        "https://picsum.photos/seed/classroom73/400/300"
+      ],
+      "rating": 4.5,
+      "studentsTaught": 220,
+      "profileViews": 865,
+      "totalAppointments": 52,
+      "reviews": [
+        {
+          "id": "4d7c2ffd-ff71-434c-889a-bb57bb61c367",
+          "studentName": "Aditya Singh",
+          "rating": 5,
+          "comment": "Highly recommend, friendly and knowledgeable.",
+          "date": "2026-01-03"
+        },
+        {
+          "id": "896e2fc1-24b9-4ccf-9e2a-99e1a1e1fb36",
+          "studentName": "Ishita Rao",
+          "rating": 4,
+          "comment": "Good teaching style, but batch is a bit crowded.",
+          "date": "2026-06-11"
+        },
+        {
+          "id": "8cb0b1bc-09ef-4f16-98fc-0208b3664f16",
+          "studentName": "Rohan Gupta",
+          "rating": 5,
+          "comment": "Best teacher for doubt clearing, very patient.",
+          "date": "2026-01-19"
+        },
+        {
+          "id": "e3c03b6b-b354-4aa8-93f6-5401520e02d1",
+          "studentName": "Ishita Rao",
+          "rating": 4,
+          "comment": "Good teaching style, but batch is a bit crowded.",
+          "date": "2026-05-16"
+        }
+      ],
+      "name": "Vikram Rathore",
+      "subjects": [
+        "Biology",
+        "Chemistry"
+      ],
+      "classes": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "qualifications": "M.Sc. Zoology, B.Ed.",
+      "experienceYears": 7,
+      "location": "Bhawarkuan, Indore",
+      "address": "31 Bhawarkuan, Indore",
+      "contact": "9876500008",
+      "fees": 2200,
+      "batchSize": 12,
+      "availableSeats": 3,
+      "description": "I use diagrams, models and revision charts to make Biology and Chemistry easy to remember and score well.",
+      "batchTimings": [
+        {
+          "label": "Evening Batch",
+          "time": "5:30 PM - 7:00 PM"
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "afd3fb8c-4a7f-47a7-b208-7fb62fdede9e",
+      "appointmentCode": "APT-100001",
+      "studentId": "student-user-1",
+      "studentName": "Aarav Patel",
+      "teacherId": "4a38f3a3-c8fc-486b-b378-8bf8b61a6eab",
+      "teacherName": "Anita Sharma",
+      "date": "2026-07-20",
+      "time": "5:00 PM",
+      "status": "confirmed",
+      "createdAt": "2026-07-15T10:00:00.000Z"
+    },
+    {
+      "id": "786297a6-a1bd-4509-a561-932530805ad0",
+      "appointmentCode": "APT-100002",
+      "studentId": "student-user-1",
+      "studentName": "Aarav Patel",
+      "teacherId": "5971a686-7bda-4ee5-8382-576dde87ef65",
+      "teacherName": "Priya Nair",
+      "date": "2026-07-10",
+      "time": "3:00 PM",
+      "status": "completed",
+      "createdAt": "2026-07-05T09:00:00.000Z"
+    },
+    {
+      "id": "d1ae3184-3249-4a85-98e8-01129f27d876",
+      "appointmentCode": "APT-100003",
+      "studentId": "student-user-2",
+      "studentName": "Ishita Rao",
+      "teacherId": "4a38f3a3-c8fc-486b-b378-8bf8b61a6eab",
+      "teacherName": "Anita Sharma",
+      "date": "2026-07-19",
+      "time": "7:00 AM",
+      "status": "pending",
+      "createdAt": "2026-07-16T11:00:00.000Z"
+    }
+  ],
+  "favorites": [
+    {
+      "studentId": "student-user-1",
+      "teacherId": "4a38f3a3-c8fc-486b-b378-8bf8b61a6eab"
+    },
+    {
+      "studentId": "student-user-1",
+      "teacherId": "de3ac580-256d-4a91-ac66-aae20bb27050"
+    },
+    {
+      "studentId": "student-user-2",
+      "teacherId": "5971a686-7bda-4ee5-8382-576dde87ef65"
+    }
+  ],
+  "nextAppointmentSeq": 100004
+}
